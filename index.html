@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar">
+          <a href="#">Landing Page</a>
+          <div id="fb">
+            <span><a href="#">Segui conectado</a></span>
+            <span > <a href="#"><img src="assets/facebook.png" width="30px" alt=""></a> </span>
+          </div>
+        </nav>
+        <div class="galeria">
+          <div class="carrusel slick-slider slick-slider ">
+            <div class="slide1"> <button type="button" id="btnCompra" class="btn" name="button">Comprar</button> </div>
+            <div class="slide1"> </div>
+          </div>
+        </div> <!end galeria>
+        <div id="articulos">
+          <h1>Últimos Artículos</h1>
+          <div class="grid-container">
+            <div class="card item1 style2 ">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div><!end card>
+            </div><!end card>
+            <div class="style1 card item2  ">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div><!end card>
+            <div class="card item3 style2">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div><!end card>
+            <div class="card item4 style1">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div><!end card>
+            <div class="card item1 style2">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div><!end card>
+            <div class="card item2 style1">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div><!end card>
+            <div class="card item3 style2">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div><!end card>
+            <div class="card item4 style1">
+              <div class=" imgArticulo"></div>
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+          </div><!end card>
+        </div> <!end grid>
+      </div> <!end articulos>
+      <div id="form">
+        <h1 id="titleForm">Formulario</h1>
+        <hr>
+        <form id="formulario">
+          <div class="row">
+            <div class="col-6 col-sm-12">
+              <input type="text" id="nom" placeholder="Nombre" class="form-control " >
+              <span id="nomMsj" class="errorInput"></span>
+            </div>
+            <div class="col-6 col-sm-12">
+              <input type="text" id="ape" placeholder="Apellido" class="form-control ">
+              <span id="apeMsj" class="errorInput"></span>
+            </div>
+            <div class="col-12 col-sm-12">
+              <input type="text" id="mail" placeholder="e-Mail" class="form-control ">
+              <span id="mailMsj" class="errorInput"></span>
+            </div>
+            <div class="col-6 col-sm-12">
+              <select class="form-control" id="dpto" >
+              <option value="" disabled selected hidden>Departamento</option>
+              </select>
+              <span id="dptoMsj" class="errorInput"></span>
+            </div>
+            <div class="col-6 col-sm-12">
+              <select class="form-control" id="locs">
+                <option  value="" hidden>Localidad</option>
+              </select>
+              <span id="locsMsj" class="errorInput"></span>
+            </div>
+            <div class="col-6 col-sm-12">
+              <input type="text" placeholder="C.I" id="ci" class="form-control" >
+              <span id="ciMsj" class="errorInput"></span>
+            </div>
+            <div class="col-6 col-sm-12">
+              <input type="checkbox" id="bases">
+              <label>Acepto bases y condiciones.</label>
+              <span id="basesMsj" class="errorInput"></span>
+            </div>
+            <div id="colBtn">
+              <button type="button" id="btnForm" class="btn"> <b>Enviar</b> </button>
+            </div>
+          </div> <!end row>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets\plugins\slick-1.8.1\slick\slick.min.js"></script>
+    <script type="text/javascript" src="js/carrusel.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="MaterialPrueba_archivos\js\datos.js"></script>
+    <script type="text/javascript" src="MaterialPrueba_archivos\logica.js"></script>
+  </body>
+</html>
